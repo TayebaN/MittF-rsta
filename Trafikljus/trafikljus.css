@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    background-color: rgb(171, 171, 172);
+    flex-direction: row;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.trafficlight{
+   display: flex;
+   flex-direction: column;
+   background-color: white; 
+   padding: 3px;
+   justify-content: center;
+   justify-content: space-evenly;
+   height: 155px;
+}
+
+.box{
+    padding: 20px;
+}
+
+.red {
+    background-color: rgb(255, 60, 0);
+    border-width: 5px;
+    border-color: rgb(105, 3, 3);
+    border-style: solid;
+
+}
+
+.yellow {
+    border-width: 5px;
+    border-color: rgb(161, 137, 4);
+    border-style: solid;
+    background-color: rgb(238, 255, 0);
+}
+
+.green {
+    background-color: rgb(3, 163, 43);
+    border-width: 5px;
+    border-color: rgb(2, 80, 15);
+    border-style: solid;
+
+}
